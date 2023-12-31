@@ -3,50 +3,54 @@
     <head>
         <title>Golden</title>
         <link href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Montserrat&family=Roboto+Slab&display=swap"
+            rel="stylesheet">
     </head>
     <body>
-<header>
-    <a href="#">Golden</a>
-    <nav>
-        <ul>
-            <li>
-                <a href="#">Home</a>
+<header class="header">
+    <a href="#" class="header-logo">Golden</a>
+    <nav class="main-navigation">
+        <ul class="navigation-list">
+            <li class="navigation-item">
+                <a href="#" class="navigation-link">Home</a>
             </li>
-            <li>
-                <a href="#">Services</a>
+            <li class="navigation-item">
+                <a href="#" class="navigation-link">Services</a>
             </li>
-            <li>
-                <a href="#">Portfolio</a>
+            <li class="navigation-item">
+                <a href="#" class="navigation-link">Portfolio</a>
             </li>
-            <li>
-                <a href="#">About</a>
+            <li class="navigation-item">
+                <a href="#" class="navigation-link">About</a>
             </li>
-            <li>
-                <a href="#">Contact</a>
+            <li class="navigation-item">
+                <a href="#" class="navigation-link">Contact</a>
             </li>
         </ul>
     </nav>
 </header>
-<main>
+<main class="main">
     <section>
-        <h2>Services</h2>
-        <ul>
-            <li>
-                <img src="./Images/Combined shape 134.png">
-                <h3>E-Commerce</h3>
-                <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in
+        <title class="service-title">Services</title>
+        <ul class="service-list">
+            <li class="service-item">
+                <img src="./Images/Combined shape 134.png" class="service-photo">
+                <h1 class="service-name">E-Commerce</h1>
+                <p class="service-description">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in
                 tincidunt.</p>
             </li>
-            <li>
-                <img src="./Images/Combined shape 132.png">
-                <h3>Responsive Web</h3>
-                <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in
+            <li class="service-item">
+                <img src="./Images/Combined shape 132.png" class="service-photo">
+                <h1 class="service-name">Responsive Web</h1>
+                <p class="service-description">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in
                     tincidunt.</p>
             </li>
-            <li>
-                <img src="./Images/Combined shape 130.png">
-                <h3>Web Security</h3>
-                <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in
+            <li class="service-item">
+                <img src="./Images/Combined shape 130.png" class="service-photo">
+                <h1 class="service-name">Web Security</h1>
+                <p class="service-description">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in
                     tincidunt.</p>
             </li>
 
@@ -54,14 +58,14 @@
     </section>
     
 </main>
-<footer>
-   <h2>Contact us</h2> 
-   <form>
-    <input type="text" placeholder="Your name">
-    <input type="email" placeholder="Your email">
-    <input type="text" placeholder="Subject">
-    <textarea placeholder="Your message"></textarea>
-    <button type="submit">Send message</button>
+<footer class="footer">
+   <h2 class="footer-title">Contact us</h2> 
+   <form class="contact-form">
+    <input type="text" placeholder="Your name" class="form-name">
+    <input type="email" placeholder="Your email" class="form-email">
+    <input type="text" placeholder="Subject" class="form-subject">
+    <textarea placeholder="Your message" class="form-message"></textarea>
+    <button type="submit" class="form-button">Send message</button>
     
    </form>
 </footer>

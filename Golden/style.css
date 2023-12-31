@@ -1,0 +1,84 @@
+:root{
+    --titles-color:#222;
+    --main-text-color:#777;
+    --accent-color:#FED136;
+    --placeholders-color:#BBB;
+}
+.header-logo{
+    color: var(--accent-color);
+    
+        text-align: center;
+        font-family: Bilbo Swash Caps;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 41px;
+        letter-spacing: 1.3px;
+}
+.nav-link{
+    color: var(--accent-color);
+    
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 41px;
+        text-transform: uppercase;
+}
+.service-title{
+    color: var(--titles-color);
+    
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 75px;
+        letter-spacing: -1px;
+        text-transform: uppercase;
+}
+.service-name{
+    color: var(--titles-color);
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 75px;
+        letter-spacing: -0.45px;
+}
+.service-description{
+    color: var(--main-text-color);
+        text-align: center;
+        font-family: RobotoSlab;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.35px;
+}
+footer{
+    background-color: var(--titles-color);
+}
+.footer-title{
+    color: #FFF;
+        font-family: Montserrat;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -1px;
+        text-transform: uppercase;
+}
+.form-button{
+    color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    background-color: var(--accent-color);
+}
